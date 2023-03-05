@@ -14,7 +14,7 @@ body header {
     height: 80px;
     width: 100%;
     background-color: #f8f8f8;
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid #e2233e;
 }
 
 body header img {
@@ -40,7 +40,7 @@ nav ul a {
 }
 
 nav ul a:hover {
-    border-bottom: 3px solid red;
+    border-bottom: 3px solid #e2233e;
 }
 
 
@@ -76,9 +76,10 @@ footer {
     background-color: #f8f8f8;
     margin-top: 25px;
     padding: 20px 0;
-    border-top: 1px solid red;
+    border-top: 1px solid #e2233e;
 }
 /* třídy ----------------------------------------------------------- */
+
 .obsah {
     display: flex;
     position: relative;
@@ -91,7 +92,7 @@ footer {
 }
 
 .obsah ul li {
-    border-left: 9px dotted red;
+    border-left: 9px dotted #e2233e;
     padding-left: 12px;
     margin: 6px 0 0 0;
 }
@@ -102,13 +103,15 @@ footer {
     font-size: 1.1em;
 }
   
-  .obsah > div:nth-child(1),
-  .obsah > div:nth-child(2) {
+.obsah > div:nth-child(1),
+.obsah > div:nth-child(2) {
     flex: 1;
-  }
-  .p_col {
+}
+  
+.p_col {
     min-height: 800px;
   }
+
 .p_col img {
     position: absolute; 
     top: 0; 
@@ -129,12 +132,12 @@ footer {
     color:#242323;
     text-transform: uppercase;
     text-decoration: none;
-    border-bottom: 4px solid red;
+    border-bottom: 4px solid #e2233e;
 }
 
 .mailto {
     padding-bottom: 10px;
-    border-bottom: 3px solid red;
+    border-bottom: 3px solid #e2233e;
 }
 
 .mailto a {
@@ -149,10 +152,16 @@ footer {
 
 
 .aktivni_zalozka {
-    border-bottom: 3px solid red;
+    border-bottom: 3px solid #e2233e;
+}
+
+.obdelnik {
+    background-color: #e2233e;
+    padding: 0 9px;
 }
 
 /* id ------------------------------------------------------------------- */
+
 #header {
     padding: 20px 0 20px 0;
     display: flex;
@@ -164,5 +173,5 @@ footer {
     color: darkgray;
     letter-spacing: 1.2px;
     font-size: 1.1em;
-    border-bottom: 9px dotted red;
+    border-bottom: 9px dotted #e2233e;
 }
